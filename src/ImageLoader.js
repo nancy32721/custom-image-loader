@@ -16,7 +16,8 @@ class ImageLoader extends React.PureComponent {
     height: 100,
     width: 100,
     src: 'https://cdn.star.nesdis.noaa.gov/GOES16/ABI/FD/08/1808x1808.jpg',
-    placeholder: ''
+    placeholder: '',
+    loader: 'loading.gif',
   };
 
   constructor(props) {
@@ -34,7 +35,7 @@ class ImageLoader extends React.PureComponent {
 
   renderPlaceholder() {
     return (
-      <img src="loading.gif" alt={this.props.alt} />
+      <img src={this.props.loader} alt={this.props.alt} />
     )
   }
 
@@ -70,6 +71,7 @@ ImageLoader.propTypes = {
   alt: PropTypes.string,
   height: PropTypes.Number,
   width: PropTypes.Number,
+  loader: PropTypes.string,
   src: PropTypes.string.isRequired,
 }
 

@@ -6,7 +6,7 @@ Getting started:
 
 Install ImageLoader using npm.
 
-npm install ImageLoader
+npm install ImageLoader;
 
 example:
 
@@ -15,3 +15,8 @@ import ReactDOM from 'react-dom';
 import {ImageLoader} from 'image-loader';
 
 ReactDOM.render(<ImageLoader />, document.getElementById('example')
+
+props required:
+
+src: path of the image you want to see on the screen(mandatory)
+loader: can pass custom loader image
