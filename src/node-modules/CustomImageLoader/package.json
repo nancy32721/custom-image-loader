@@ -1,0 +1,5 @@
+{
+  "private": true,
+  "name": "Custom Image Loader",
+  "main": "./CustomImageLoader.js"
+}

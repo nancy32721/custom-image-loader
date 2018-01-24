@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ImageLoader from './../src/ImageLoader';
-import './../src/App.css';
+import ImageLoader from './CustomImageLoader';
+import './App.css';
 
 class App extends Component {
   render() {

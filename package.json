@@ -1,5 +1,5 @@
 {
-  "name": "image-loader",
+  "name": "custom-image-loader",
   "version": "0.0.1",
   "main": "lib/index.js",
   "dependencies": {

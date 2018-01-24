@@ -12,9 +12,9 @@ example:
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {ImageLoader} from 'image-loader';
+import {CustomImageLoader} from 'image-loader';
 
-ReactDOM.render(<ImageLoader />, document.getElementById('example')
+ReactDOM.render(<CustomImageLoader />, document.getElementById('example')
 
 props required:
 
