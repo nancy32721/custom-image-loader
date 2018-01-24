@@ -2,7 +2,6 @@
   "name": "image-loader",
   "version": "0.0.1",
   "main": "lib/index.js",
-  "private": true,
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
